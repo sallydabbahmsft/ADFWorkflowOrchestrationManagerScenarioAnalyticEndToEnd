@@ -1,26 +1,26 @@
 [**Back to the Readme section**](/README.md)
 
-# Create a workspace
+# Prerequisites
+1. **Azure subscription**: If you don't have an Azure subscription, create a free account before you begin.
+2. **Azure Data Factory**: Create or select an existing Data Factory instance in the region where the Workflow Orchestration Manager preview is supported.
 
-In this step, you create a Airflow instance. The instance will give you  contains all the items needed for this lakehouse tutorial, which includes lakehouse, dataflows, Data Factory pipelines, the notebooks, Power BI datasets, and reports.
+# Create the environment
+To create a new Workflow Orchestration Manager environment:
 
-1. Sign in to [Power BI](https://powerbi.com/)
-   
-2. Select **Workspaces** and **New workspace**<br>  
-     ![image](https://github.com/sallydabbahmsft/FabricScenarioAnalyticEndToEnd/assets/105279899/6837e939-386d-4efb-a3c8-aa9970818ed2)
+1. Go to the **Manage hub** and select Airflow (Preview) > + New to open the Airflow environment setup page.
+
+![image](https://github.com/sallydabbahmsft/ADFWorkflowOrchestrationManagerScenarioAnalyticEndToEnd/assets/105279899/729e83aa-486a-4d41-9a91-cbaa26292dc2)
+
+2. Enter information and select options for your Airflow configuration.
+
+![image](https://github.com/sallydabbahmsft/ADFWorkflowOrchestrationManagerScenarioAnalyticEndToEnd/assets/105279899/81ebaa2b-c841-491d-958e-001da317d523)
 
 
-3. Fill out the Create a workspace form with the following details:
-   1. Name: Enter *Fabric Lakehouse Tutorial*, and any extra characters to make the name unique.
-   
-   2. Description: Enter an optional description for your workspace.</br>  
-     ![image](https://github.com/sallydabbahmsft/FabricScenarioAnalyticEndToEnd/assets/105279899/c9252582-8d6b-4313-a478-b2c5f673efa2)
 
-   
-   **3. Advanced:** Under License mode, select Premium capacity and then choose a premium capacity that you have access to.
-  ![image](https://github.com/sallydabbahmsft/FabricScenarioAnalyticEndToEnd/assets/105279899/0912f76e-5868-43bc-884b-de89fdc99209)
 
-   
-4. Select **Apply** to create and open the workspace
+3. When you use Basic authentication, remember the username and password specified on this page. You need them to sign in later in the Airflow UI. The default option is Azure AD. It doesn't require creating a username and password for your Airflow environment. Instead, it uses the signed-in user's credential for Azure Data Factory to sign in and monitor directed acyclic graphs (DAGs).
 
-[**Go to the next step**](/Analytics%20-%20How%20To%20Proceed/2_Create_the_Bronze_Lakehouse.md)
+ Select create - it might take around 20 minutes to set-up the airflow emnviroment
+
+
+[**Go to the next step**](/Analytics%20-%20How%20To%20Proceed/2_Create_the_ADF_pipeline.md)
