@@ -1,4 +1,4 @@
-[**Back to the previous step**](/RunADFPipelines%20-%20How%20To%20Proceed/1_Create_Airflow_environment_in_Workflow_Orchestration_Manager.md)
+[**Back to the previous step**](RunADFPipelines/1_Create_Airflow_environment_in_Workflow_Orchestration_Manager.md)
 
 # Create ADF Pipeline
 
