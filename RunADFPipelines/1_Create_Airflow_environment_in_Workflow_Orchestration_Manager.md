@@ -23,4 +23,4 @@ To create a new Workflow Orchestration Manager environment:
  Select create - it might take around 20 minutes to set-up the airflow emnviroment
 
 
-[**Go to the next step**](/RumADFPipelines/2_Create_the_ADF_pipeline.md)
+[**Go to the next step**](/RunADFPipelines/2_Create_the_ADF_pipeline.md)
