@@ -29,24 +29,6 @@ in this step we want to create copy activity that will copy local file to my Azu
 5. click on **Publish all**
 
 [**Go to the next step**](/RunADFPipelines/3_Connect_to_ADF_from_Airflow_UI.md)
-Access Airflow UI:
-
-Navigate to the Manage tab.
-Select Apache Airflow.
-Click on the Monitor button for your Airflow instance. This will open the Airflow UI.
-Configure Connections in Airflow UI:
-
-In the Airflow UI, go to the Admin tab.
-Click on the Connections tab to see a list of possible connections in Airflow.
-Edit the connection for Azure Data Factory and fill in the required details.
-Obtain Client ID and Client Secret:
-
-Navigate to Azure Active Directory (AAD).
-Click on the Manage tab on the left side.
-Go to App Registrations.
-Search for your ADF app and select it.
-In the Overview tab, copy your credentials.
-Note: To ensure it works, you need to specify the Client ID of your ADF workspace and the password retrieved from Azure Active Directory.
 
 
 
