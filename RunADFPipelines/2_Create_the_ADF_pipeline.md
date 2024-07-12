@@ -25,6 +25,7 @@ in this step we want to create copy activity that will copy local file to my Azu
 
 ![image](https://github.com/sallydabbahmsft/ADFWorkflowOrchestrationManagerScenarioAnalyticEndToEnd/assets/105279899/62489c78-f77e-459e-93d3-c7e75e7d03b8)
 
+4. name the pipelie **"AirflowDemo"**
 
 5. click on **Publish all**
 
